@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OPINA SOBRE LA PARTICIPACIÓ JUVENIL</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:white;
+color:#111;
+line-height:1.7;
+}
+
+header{
+position:sticky;
+top:0;
+background:white;
+border-bottom:1px solid #eee;
+z-index:999;
+}
+
+.nav{
+max-width:1400px;
+margin:auto;
+padding:18px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+height:60px;
+}
+
+.nav-links{
+display:flex;
+gap:30px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#222;
+font-weight:600;
+}
+
+.hero{
+max-width:1400px;
+margin:auto;
+padding:80px 40px;
+display:grid;
+grid-template-columns:1.2fr 1fr;
+gap:80px;
+align-items:center;
+min-height:85vh;
+}
+
+.badge{
+display:inline-block;
+background:#fff4c2;
+padding:8px 16px;
+border-radius:50px;
+font-size:.9rem;
+font-weight:700;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:5rem;
+line-height:1;
+font-weight:900;
+margin-bottom:25px;
+}
+
+.hero p{
+font-size:1.2rem;
+color:#555;
+max-width:700px;
+}
+
+.buttons{
+margin-top:35px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn{
+padding:16px 30px;
+border-radius:12px;
+text-decoration:none;
+font-weight:700;
+}
+
+.btn-primary{
+background:#c60000;
+color:white;
+}
+
+.btn-secondary{
+background:#f3f3f3;
+color:#111;
+}
+
+.poster{
+text-align:center;
+}
+
+.poster img{
+width:100%;
+max-width:450px;
+border-radius:25px;
+transform:rotate(-7deg);
+box-shadow:0 30px 60px rgba(0,0,0,.18);
+}
+
+section{
+padding:100px 40px;
+}
+
+.container{
+max-width:1300px;
+margin:auto;
+}
+
+h2{
+font-size:3rem;
+margin-bottom:25px;
+font-weight:900;
+}
+
+.lead{
+font-size:1.15rem;
+color:#555;
+max-width:900px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.card{
+padding:35px;
+background:white;
+border:1px solid #eee;
+border-radius:20px;
+}
+
+.card h3{
+margin-bottom:15px;
+}
+
+.highlight{
+background:#fafafa;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.stat{
+padding:30px;
+border-radius:20px;
+background:white;
+border:1px solid #eee;
+text-align:center;
+}
+
+.number{
+font-size:3rem;
+font-weight:900;
+color:#c60000;
+}
+
+.timeline{
+margin-top:50px;
+border-left:4px solid #c60000;
+padding-left:30px;
+}
+
+.event{
+margin-bottom:40px;
+}
+
+.event h3{
+font-size:1.4rem;
+}
+
+.map-box{
+margin-top:50px;
+text-align:center;
+padding:50px;
+border:2px dashed #ddd;
+border-radius:25px;
+}
+
+.map-box img{
+max-width:700px;
+width:100%;
+}
+
+.unis{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.uni{
+padding:20px;
+background:#fafafa;
+border-radius:15px;
+}
+
+.cta{
+background:#111;
+color:white;
+text-align:center;
+}
+
+.cta h2{
+color:white;
+}
+
+footer{
+padding:60px 20px;
+text-align:center;
+border-top:1px solid #eee;
+}
+
+@media(max-width:950px){
+
+.hero{
+grid-template-columns:1fr;
+text-align:center;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.buttons{
+justify-content:center;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="nav">
+
+<img src="logo.png" alt="Logo" class="logo">
+
+<div class="nav-links">
+<a href="#projecte">Projecte</a>
+<a href="#territoris">Territoris</a>
+<a href="#universitats">Universitats</a>
+<a href="#calendari">Calendari</a>
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<div class="badge">
+Macroenquesta Juvenil dels Països Catalans
+</div>
+
+<h1>
+OPINA SOBRE LA PARTICIPACIÓ JUVENIL
+</h1>
+
+<p>
+La gran consulta juvenil dels Països Catalans per conèixer
+com participa la joventut als barris, pobles, ciutats,
+instituts, universitats, associacions i espais comunitaris.
+</p>
+
+<div class="buttons">
+
+<a href="#projecte" class="btn btn-primary">
+Descobreix el projecte
+</a>
+
+<a href="#calendari" class="btn btn-secondary">
+Calendari
+</a>
+
+</div>
+
+</div>
+
+<div class="poster">
+<img src="cartel.png" alt="Cartell de la campanya">
+</div>
+
+</section>
+
+<section id="projecte">
+
+<div class="container">
+
+<h2>Què és?</h2>
+
+<p class="lead">
+Un estudi participatiu impulsat des de la joventut per
+recollir opinions sobre la participació juvenil als
+Països Catalans i elaborar una radiografia territorial
+de la realitat dels joves.
+</p>
+
+<div class="cards">
+
+<div class="card">
+<h3>Participació municipal</h3>
+<p>Analitzar la implicació dels joves als municipis i barris.</p>
+</div>
+
+<div class="card">
+<h3>Participació universitària</h3>
+<p>Conèixer la vida associativa i estudiantil als campus.</p>
+</div>
+
+<div class="card">
+<h3>Participació comunitària</h3>
+<p>Estudiar la presència juvenil en entitats i col·lectius.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="highlight">
+
+<div class="container">
+
+<h2>Objectius</h2>
+
+<div class="stats">
+
+<div class="stat">
+<div class="number">100+</div>
+Municipis
+</div>
+
+<div class="stat">
+<div class="number">20+</div>
+Universitats
+</div>
+
+<div class="stat">
+<div class="number">1.000+</div>
+Respostes
+</div>
+
+<div class="stat">
+<div class="number">5</div>
+Territoris
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="territoris">
+
+<section id="territoris">
+
+<div class="container">
+
+<h2>Territoris participants</h2>
+
+<p class="lead">
+La jornada presencial del 29 d'agost es desenvoluparà simultàniament en diversos punts dels Països Catalans. La xarxa territorial continua oberta a noves incorporacions.
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Catalunya</h3>
+
+<ul>
+<li><strong>Sabadell</strong> — Plaça Doctor Robert</li>
+<li><strong>Terrassa</strong> — Raval de Montserrat</li>
+<li><strong>Badia del Vallès</strong> — Plaça de les Entitats</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>País Valencià</h3>
+
+<ul>
+<li><strong>Castelló</strong> — Plaça Major</li>
+<li><strong>València</strong> — Plaça de l'Ajuntament</li>
+<li><strong>Alacant</strong> — Plaça dels Estels</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Illes Balears</h3>
+
+<ul>
+<li><strong>Palma</strong> — Plaça Major</li>
+<li><strong>Eivissa</strong> — Plaça Pintor Vicent Calbet</li>
+<li><strong>Menorca</strong> — Plaça des Born</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>L'Alguer</h3>
+
+<ul>
+<li><strong>L'Alguer</strong> — Plaça Cívica</li>
+</ul>
+
+</div>
+
+</div>
+
+<br><br>
+
+<div class="card">
+
+<h3>📍 Nous punts en preparació</h3>
+
+<p>
+La macroenquesta continua ampliant la seva presència territorial. Si vols impulsar un punt de participació al teu municipi, barri o universitat, contacta amb l'organització.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="universitats">
+
+<div class="container">
+
+<h2>Universitats participants</h2>
+
+<p class="lead">
+La macroenquesta també arribarà als campus universitaris dels Països Catalans mitjançant equips de voluntariat, estudiants i col·laboradors.
+</p>
+
+<div class="unis">
+
+<div class="uni">Universitat de Barcelona (UB)</div>
+<div class="uni">Universitat Autònoma de Barcelona (UAB)</div>
+<div class="uni">Universitat Pompeu Fabra (UPF)</div>
+<div class="uni">Universitat Politècnica de Catalunya (UPC)</div>
+<div class="uni">Universitat Rovira i Virgili (URV)</div>
+<div class="uni">Universitat de Lleida (UdL)</div>
+<div class="uni">Universitat de Girona (UdG)</div>
+<div class="uni">Universitat de Vic (UVic)</div>
+<div class="uni">Universitat Ramon Llull (URL)</div>
+<div class="uni">Universitat Abat Oliba CEU (UAO-CEU)</div>
+<div class="uni">Universitat de València (UV)</div>
+<div class="uni">Universitat Politècnica de València (UPV)</div>
+<div class="uni">Universitat Jaume I (UJI)</div>
+<div class="uni">Universitat d'Alacant (UA)</div>
+<div class="uni">Universitat Miguel Hernández (UMH)</div>
+<div class="uni">Universitat de les Illes Balears (UIB)</div>
+<div class="uni">Universitat de Perpinyà Via Domícia (UPVD)</div>
+
+</div>
+
+</div>
+
+</section>
+
+</div>
+
+</section>
+
+<section id="calendari">
+
+<div class="container">
+
+<h2>Calendari</h2>
+
+<div class="timeline">
+
+<div class="event">
+<h3>Juny - Juliol</h3>
+<p>Preparació, captació de voluntariat i difusió.</p>
+</div>
+
+<div class="event">
+<h3>Agost</h3>
+<p>Coordinació territorial i campanya final.</p>
+</div>
+
+<div class="event">
+<h3>29 d'agost</h3>
+<p>Macroenquesta presencial simultània als Països Catalans.</p>
+</div>
+
+<div class="event">
+<h3>29 d'agost - 28 de setembre</h3>
+<p>Recollida de respostes online.</p>
+</div>
+
+<div class="event">
+<h3>Octubre</h3>
+<p>Publicació dels resultats.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="highlight" id="collabora">
+
+<div class="container">
+
+<h2>Vols col·laborar?</h2>
+
+<p class="lead">
+Uneix-te a la xarxa de voluntariat de la macroenquesta.
+</p>
+
+<form
+action="https://formsubmit.co/arlequinadaces@gmail.com"
+method="POST"
+style="margin-top:40px;">
+
+<input type="hidden" name="_captcha" value="false">
+
+<input type="hidden"
+name="_subject"
+value="Nova adhesió a Opina sobre la Participació Juvenil">
+
+<input
+type="text"
+name="Nom"
+placeholder="Nom i cognoms"
+required
+style="width:100%;padding:15px;margin-bottom:15px;border:1px solid #ddd;border-radius:10px;">
+
+<input
+type="email"
+name="Email"
+placeholder="Correu electrònic"
+required
+style="width:100%;padding:15px;margin-bottom:15px;border:1px solid #ddd;border-radius:10px;">
+
+<input
+type="text"
+name="Municipi"
+placeholder="Municipi o universitat"
+style="width:100%;padding:15px;margin-bottom:15px;border:1px solid #ddd;border-radius:10px;">
+
+<textarea
+name="Missatge"
+rows="6"
+placeholder="Explica com vols col·laborar"
+required
+style="width:100%;padding:15px;border:1px solid #ddd;border-radius:10px;"></textarea>
+
+<button
+type="submit"
+style="margin-top:20px;padding:16px 30px;background:#c60000;color:white;border:none;border-radius:10px;font-weight:700;cursor:pointer;">
+Enviar adhesió
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+</section>
+
+<footer>
+
+<h3>OPINA SOBRE LA PARTICIPACIÓ JUVENIL</h3>
+
+<p>
+Macroenquesta Juvenil dels Països Catalans · 2026
+</p>
+
+</footer>
+
+</body>
+</html>
